@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-image: url(/imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 22% center;
+    height: 550px;
+    margin-top: 10px;
+}
+
+#logo{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 0.5%;
+}
+
+
+
+.cabecalho{
+    background-color: hsl(212, 87%, 15%);
+    display: inline-block;
+    width: 100%;
+}
+
+.menu-nav{
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.menu-nav a{
+    color: rgb(117, 118, 138);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 11px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: color 0.4s linear;
+    text-align: center;
+    
+}
+
+.menu-nav a:hover{
+    color: white;
+}
+
+main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+main h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+main p{
+    
+    color: rgb(103, 103, 103);
+    margin: 0px 80px;
+    text-align: center;
+    line-height: 30px;
+
+
+}
+
+#galeria{
+
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    
+   float: left;
+   width: 32%;
+   box-sizing: border-box;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+.modelo1, .modelo2{
+
+    margin-right: 2%;
+}
+
+.card h2{
+    text-transform: uppercase;
+    color: rgb(81, 81, 81);
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    color: rgb(188, 188, 188);
+    text-transform:capitalize;
+}
+
+#container{
+    background-image: url(/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    height: 550px;
+    
+    margin-top: 100px;
+}
+
+#container h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 5%;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight:bold;
+    
+}
+
+
+#frase{
+    padding-top: 8%;
+    margin-bottom: 8px;
+    
+}
+
+#frase2{
+    margin-bottom: 0px;
+
+}
+
+#container p{
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    width: 65%;
+    line-height: 20px;
+    
+}
+
+#contato{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#contato h2{
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(14, 44, 113);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+
+footer{
+    background-color: hsl(212, 87%, 15%);
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+footer p{
+    color: hsl(212, 28%, 43%);
+    padding: 10px;
+    text-align: center;
+    text-transform:inherit;
+}
